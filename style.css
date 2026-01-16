@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Estilização Geral */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  margin: 47px 0 150px 42px;
+}
+
+.link-header {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  color: #17233d;
+  text-decoration: none;
+  margin-left: 32px;
+}
+
+.button-header {
+  width: 124px;
+  height: 51px;
+  border-radius: 6px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  border: 1px solid #4cb538;
+  color: #ffffff;
+  background-color: #4cb538;
+  margin-left: 32px;
+  cursor: pointer;
+}
+
+.logo-image {
+  display: inline-block;
+  width: 595px;
+  height: 500px;
+  margin-left: 121px;
+}
+
+section {
+  display: inline-block;
+  margin-left: 84px;
+}
+
+h1 {
+  width: 582px;
+  height: 164px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 82px;
+  letter-spacing: 0.6px;
+  color: #161a49;
+}
+
+p {
+  width: 493px;
+  height: 99px;
+  color: #4b505a;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  margin-top: 47px;
+  margin-bottom: 55px;
+}
+
+.link-section {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #6fbf44;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1405px) {
+  main,
+  header {
+    text-align: center;
+  }
+
+  header {
+    margin: 47px auto 120px;
+  }
+
+  .logo-image {
+    margin: 5% auto 0;
+    padding-bottom: 5%;
+    display: block;
+  }
+
+  section {
+    margin: 0;
+  }
+
+  p {
+    margin: 47px auto 55px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    text-align: end;
+    margin: 4% 3% 15% 0;
+  }
+
+  .link-header {
+    display: none;
+  }
+
+  .logo-image {
+    width: 80%;
+  }
+
+  h1 {
+    width: 278px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  p {
+    width: 304px;
+    height: 165px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: 10% 0;
+  }
+}
