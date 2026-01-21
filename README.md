@@ -76,3 +76,7 @@ Este projeto tem fins **educacionais**, desenvolvido com foco no aprendizado de 
 
 <img src="https://github.com/Frivcoom111/Wide-Coverage-Location/blob/main/img/img-projeto2.png?raw=true" />
 
+<br>
+
+<img src="https://github.com/Frivcoom111/Wide-Coverage-Location/blob/main/img/img-projeto1.png?raw=true" />
+
