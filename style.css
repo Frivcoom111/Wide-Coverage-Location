@@ -13,6 +13,7 @@
 
 body {
   height: 100vh;
+  overflow: hidden;
 }
 
 header {
@@ -93,6 +94,10 @@ p {
 }
 
 @media screen and (max-width: 1405px) {
+  body {
+    overflow: auto;
+  }
+
   main,
   header {
     text-align: center;
