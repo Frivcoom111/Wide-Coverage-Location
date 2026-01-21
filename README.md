@@ -71,3 +71,8 @@ Estudante de Desenvolvimento Web
 ## 📌 Observação
 
 Este projeto tem fins **educacionais**, desenvolvido com foco no aprendizado de **HTML, CSS e responsividade com Media Queries**.
+
+---
+
+<img src="https://github.com/Frivcoom111/Wide-Coverage-Location/blob/main/img/img-projeto2.png?raw=true" />
+
